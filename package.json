@@ -1,5 +1,5 @@
 {
-    "name": "burgertime",
+    "name": "burgers",
     "version": "1.0.0",
     "description": "",
     "main": "server.js",
@@ -9,14 +9,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/mrh2oman/burger.git"
+        "url": "git+https://github.com/BrienHall/eat-da-burger"
     },
-    "author": "David Waterman",
+    "author": "Brien Hall",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/mrh2oman/burger/issues"
+        "url": "https://github.com/BrienHall/eat-da-burger/issues"
     },
-    "homepage": "https://github.com/mrh2oman/burger#readme",
+    "homepage": "https://github.com/BrienHall/eat-da-burger#readme",
     "dependencies": {
         "body-parser": "^1.18.2",
         "express": "^4.15.5",
