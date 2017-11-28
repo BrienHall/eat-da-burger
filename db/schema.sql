@@ -1,9 +1,8 @@
-DROP DATABASE IF exists burgers_db;
-CREATE DATABASE burgers_db;
-SET SQL_SAFE_UPDATES = 0;
-
-
+CREATE DATABASE IF NOT EXISTS burgers_db;
 USE burgers_db;
+
+DROP TABLE IF EXISTS burgers;
+
 
 CREATE TABLE burgers
 (
