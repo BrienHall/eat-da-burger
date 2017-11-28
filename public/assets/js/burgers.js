@@ -23,7 +23,8 @@ $(function() {
 
     var newBurger = {
       burger_name: $("#burger_name").val().trim(),
-      devoured: 0
+      devoured: 0,
+      // date: $.now() 
     };
 
     $.ajax("/api/burgers", {
